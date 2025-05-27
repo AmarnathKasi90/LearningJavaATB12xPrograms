@@ -2,7 +2,8 @@ package Interview;
 
 import java.util.Scanner;
 
-public class IQ012_PrimeChecker {
+public class
+IQ012_PrimeChecker {
     public static boolean isPrime(int number) {
 
         if (number <= 1) {

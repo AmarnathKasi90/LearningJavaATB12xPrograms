@@ -1,0 +1,15 @@
+package ex_30_Exceptions;
+
+public class Lab237_Try_Catch {
+    public static void main(String[] args) {
+
+        System.out.println("1");
+        try {
+            int a = 10 / 0;
+        }catch (ArithmeticException e){
+            System.out.println("ArithmeticException");
+        }
+
+        System.out.println("2");
+    }
+}

@@ -13,7 +13,8 @@ public class IQ016_StringReverse {
         System.out.println(new String(sentence));
     }
 
-    public static void reverseWords(char[] sentence) {
+
+    private static void reverseWords(char[] sentence) {
 
         //reverse entire sentence
         reverse(sentence, 0, sentence.length - 1);
@@ -30,7 +31,7 @@ public class IQ016_StringReverse {
         reverse(sentence, start, sentence.length - 1);
     }
 
-    public static void reverse(char[] arr, int i, int j) {
+    private static void reverse(char[] arr, int i, int j) {
         while (i < j) {
             char temp = arr[i];
             arr[i] = arr[j];
