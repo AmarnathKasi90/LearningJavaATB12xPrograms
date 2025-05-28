@@ -4,7 +4,7 @@ public class IQ024_NearestPalindrome {
     public static void main(String[] args) {
 
 
-        int number = 133;
+        int number = 1;
         int lower = number - 1;
         int higher = number + 1;
         while (!isPalindrome(lower)) {

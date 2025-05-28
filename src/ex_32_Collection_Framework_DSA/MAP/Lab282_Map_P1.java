@@ -66,8 +66,8 @@ public class Lab282_Map_P1 {
         System.out.println("TreeMap\t" + t.get(6));
 
 
-        for(Map.Entry<Integer,Integer> item: m.entrySet()){
-            System.out.println(item.getKey()+ "->" + item.getValue());
+        for(Map.Entry<Integer,Integer> entry: m.entrySet()){
+            System.out.println(entry.getKey()+ "->" + entry.getValue());
         }
 
         }

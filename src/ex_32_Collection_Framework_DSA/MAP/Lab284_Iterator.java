@@ -14,8 +14,8 @@
             m.put("id4",65);
             m.put("id5",98);
 
-            for(Map.Entry<String,Integer> item: m.entrySet()){
-                System.out.println(item.getKey() +"=> "+ item.getValue());
+            for(Map.Entry<String,Integer> entry: m.entrySet()){
+                System.out.println(entry.getKey() +"=> "+ entry.getValue());
             }
 
         }

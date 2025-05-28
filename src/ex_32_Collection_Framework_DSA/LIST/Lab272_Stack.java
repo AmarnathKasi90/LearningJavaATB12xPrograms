@@ -1,5 +1,6 @@
 package ex_32_Collection_Framework_DSA.LIST;
 
+import java.util.ListIterator;
 import java.util.Stack;
 
 public class Lab272_Stack {
@@ -12,6 +13,10 @@ public class Lab272_Stack {
         stack.add(1);
         stack.push(1);
         stack.push('a');
+        stack.push(true);
+        stack.push(23.54);
+        stack.push(23.65F);
+        stack.push(8418380182l);
         stack.push(null);
         stack.push("null");
         stack.addLast("last");
@@ -25,5 +30,9 @@ public class Lab272_Stack {
         System.out.println("stack.removeFirst\t"+ stack.removeFirst());
         System.out.println(stack);
 
+        ListIterator listIterator = stack.listIterator();
+        while(listIterator.hasNext()){
+            System.out.println("listIterator\t" + listIterator.next());
+        }
     }
 }
