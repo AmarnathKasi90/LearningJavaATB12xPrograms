@@ -20,3 +20,4 @@ class Test5 extends A1 implements I11,I12{}
 //class Test6 implements I11 extends A1{}
 //interface I3 extends A1{}
 interface I3{}
+interface I23 extends I11,I12{}
