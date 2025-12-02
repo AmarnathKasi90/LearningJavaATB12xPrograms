@@ -9,5 +9,7 @@ public class IQ013_CubeCalculator {
 
     double cube2 = Math.pow(number,3);
         System.out.println("Cube using Math.pow is " + cube2);
+
+
     }
 }

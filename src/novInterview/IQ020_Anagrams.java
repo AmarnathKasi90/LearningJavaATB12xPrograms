@@ -1,9 +1,12 @@
-package Interview;
+package novInterview;
+
 
 import java.util.Arrays;
 
 public class IQ020_Anagrams {
     public static void main(String[] args) {
+
+
         String s1 = "Listen";
         String s2 = "Silent";
 
@@ -22,13 +25,14 @@ public class IQ020_Anagrams {
             return false;
         }
 
-        // Sorting of Arrays
+        //Sorting of Arrays
         char[] arr1 = s1.toCharArray();
         Arrays.sort(arr1);
+
         char[] arr2 = s2.toCharArray();
         Arrays.sort(arr2);
 
-        for (int i = 0; i < arr1.length; i++) {
+        for (int i = 0; i <= arr1.length; i++) {
             if (arr1[i] != arr2[i]) {
                 return false;
             }

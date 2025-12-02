@@ -4,8 +4,8 @@ import java.util.LinkedHashSet;
 
 public class IQ019_LinkedHashSet_RemoveDuplicates {
     public static void main(String[] args) {
-     String input = "Hello World";
-     String Output = removeDuplicate(input);
+        String input = "Hello World";
+        String Output = removeDuplicate(input);
         System.out.println(Output);
     }
 
@@ -18,9 +18,8 @@ public class IQ019_LinkedHashSet_RemoveDuplicates {
         StringBuilder sb = new StringBuilder();
         for (char c : set) {
             sb.append(c);
-
         }
 
-    return sb.toString();
+        return sb.toString();
     }
 }
