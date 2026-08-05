@@ -1,0 +1,24 @@
+package interviewJuly26;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.TreeMap;
+
+public class IQ028_MapTree {
+    public static void main(String[] args) {
+        String input = "testlead";
+        String result;
+        Map<Character,Integer> map = new HashMap<>();
+
+        for(int i = 0; i<input.length();i++){
+            char ch = input.charAt(i);
+            map.put(ch, map.getOrDefault(ch,0)+1);
+        }
+        System.out.println(map);
+
+        for(Map.Entry<Character,Integer> entry : map.entrySet()){
+                if(entry.getValue()>1){
+                    System.out.println(entry.getKey() + "=" + entry.getValue() );
+                }
+        }
+    }
+}
